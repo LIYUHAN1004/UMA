@@ -1,0 +1,199 @@
+
+<!-- saved from url=(0086)http://127.0.0.1:8000/uma/?distance_type=&running_style=&rarity=&min_score=&max_score= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><h1>馬匹篩選器</h1>
+<form method="get">
+    <label for="distance_type">距離：</label>
+    <select name="distance_type" id="distance_type">
+        <option value="">不限</option>
+        <option value="短距離">短距離</option>
+        <option value="一哩">一哩</option>
+        <option value="中距離">中距離</option>
+        <option value="長距離">長距離</option>
+    </select>
+
+    <label for="running_style">跑法：</label>
+    <select name="running_style" id="running_style">
+        <option value="">不限</option>
+        <option value="逃げ">逃げ</option>
+        <option value="先行">先行</option>
+        <option value="差し">差し</option>
+        <option value="追込">追込</option>
+    </select>
+
+    <label for="rarity">星級：</label>
+    <select name="rarity" id="rarity">
+        <option value="">不限</option>
+        <option value="★3">★3</option>
+        <option value="★4">★4</option>
+        <option value="★5">★5</option>
+    </select>
+
+    <label for="min_score">最低分：</label>
+    <input type="number" name="min_score" id="min_score" value="">
+
+    <label for="max_score">最高分：</label>
+    <input type="number" name="max_score" id="max_score" value="">
+
+    <button type="submit">篩選</button>
+</form>
+
+<hr>
+
+<h2>篩選結果</h2>
+
+<table border="1">
+    <tbody><tr>
+        <th>名稱</th>
+        <th>距離</th>
+        <th>跑法</th>
+        <th>星級</th>
+        <th>分數</th>
+        <th>培育結果</th> <!-- ✅ 新增 -->
+    </tr>
+
+    
+    <tr>
+        <td>小栗帽</td>
+        <td>一哩</td>
+        <td>先行</td>
+        <td>★4</td>
+        <td></td>
+
+        <!-- ✅ 新增區塊：顯示該馬的所有培育結果 -->
+        <td>
+            
+                速度: 1681,
+                耐力: 1248,
+                力量: 1210,
+                根性: 938,
+                智慧: 1285,
+                總分: 
+                <br>
+            
+                速度: 654,
+                耐力: 321,
+                力量: 155,
+                根性: 348,
+                智慧: 323,
+                總分: 
+                <br>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>水司機</td>
+        <td>中距離</td>
+        <td>逃げ</td>
+        <td>★4</td>
+        <td></td>
+
+        <!-- ✅ 新增區塊：顯示該馬的所有培育結果 -->
+        <td>
+            
+                速度: 1000,
+                耐力: 500,
+                力量: 2000,
+                根性: 385,
+                智慧: 1200,
+                總分: 
+                <br>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>強擊</td>
+        <td>長距離</td>
+        <td>差し</td>
+        <td>★4</td>
+        <td></td>
+
+        <!-- ✅ 新增區塊：顯示該馬的所有培育結果 -->
+        <td>
+            
+                速度: 1,
+                耐力: 1,
+                力量: 1,
+                根性: 1,
+                智慧: 1,
+                總分: 
+                <br>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>小栗帽</td>
+        <td>中距離</td>
+        <td>差し</td>
+        <td>★5</td>
+        <td></td>
+
+        <!-- ✅ 新增區塊：顯示該馬的所有培育結果 -->
+        <td>
+            
+                無培育紀錄
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>無聲鈴鹿</td>
+        <td>一哩</td>
+        <td>逃げ</td>
+        <td>★5</td>
+        <td></td>
+
+        <!-- ✅ 新增區塊：顯示該馬的所有培育結果 -->
+        <td>
+            
+                速度: 1600,
+                耐力: 1200,
+                力量: 1500,
+                根性: 1250,
+                智慧: 1300,
+                總分: 
+                <br>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>特別周</td>
+        <td>中距離</td>
+        <td>差し</td>
+        <td>★3</td>
+        <td></td>
+
+        <!-- ✅ 新增區塊：顯示該馬的所有培育結果 -->
+        <td>
+            
+                速度: 102,
+                耐力: 2222,
+                力量: 235,
+                根性: 4865,
+                智慧: 1,
+                總分: 
+                <br>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td>創世駒</td>
+        <td>長距離</td>
+        <td>先行</td>
+        <td>★4</td>
+        <td></td>
+
+        <!-- ✅ 新增區塊：顯示該馬的所有培育結果 -->
+        <td>
+            
+                無培育紀錄
+            
+        </td>
+    </tr>
+    
+</tbody></table>
+</body></html>
